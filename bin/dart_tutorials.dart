@@ -6,8 +6,6 @@ void main() {
 
   print('Enter your birth year: ');
   var birthYear = num.parse(stdin.readLineSync()!);
-
-  var age = DateTime.now().year - birthYear;
-
+  var age = 2022 - birthYear;
   print('You are $age years old:');
 }
